@@ -1,0 +1,17 @@
+#accordion { 
+height:auto; 
+width:280px; 
+overflow:hidden; 
+position:absolute; 
+top:146px; 
+left:30px; 
+font-size: 13.5px;
+text-align: left;
+font: Helvetica,Arial,Sans-Serif;
+
+}
+.ui-accordion .ui-accordion-content { padding-top: 0.25em; padding-bottom: 0.25em; }
+#accordion ul li a { display:block;  text-decoration:none; color:#000000; background-color:#FFFFFF; line-height:20px; padding-left:1px; cursor:pointer; border-bottom:solid; border-bottom-color:#ffffff;}
+#accordion ul { list-style: none; padding:0; margin:0; height:auto;}
+#accordion h3 { }
+#accordion ul li a:hover { background-color:#F0F0F0; background-repeat:repeat-x;}
